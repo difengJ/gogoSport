@@ -1,8 +1,7 @@
-import re
 import requests
 import json
 import datetime
-import time
+from CheckFreeField import get_1_day_free_field
 
 
 def send_message(message):
@@ -22,48 +21,38 @@ def send_message(message):
     return res.text
 
 
-url = "https://field.hulasports.com/api/orderlists/get/book"
-
-today = datetime.date.today()
-today_7days = []
-for i in range(8):
-    today_7days.append(today + datetime.timedelta(days=i))
-
-today_7days_timestamp = [
-    (item, int(item.strftime("%s")) * 1000) for item in today_7days
-]
-headers = {"Content-Type": "application/json"}
-# wanted_time_list = []
-message = ""
-for item_datetime, item_timestap in today_7days_timestamp:
+def make_order(orderDate, field, time):
+    headers = {"Content-Type": "application/json"}
     payload = json.dumps(
         {
-            "orderDateNum": item_timestap,
-            "_venue": "59cc969742fa6b6703843bbe",
-            "_item": "5fbb0b6f47c6f60ffbd98483",
-            "passBaseOn": "start",
-            "showLine": "row",
-            "showPassTime": False,
             "_org": "59cb5c718e1e92a702eca340",
-            "delayMins": 0,
+            "_member": "5f349f902247cbac77c48fc3",
+            "openid": "o75LU5KjjInFmf-i5KVvalk_JQZw",
+            "orderDate": orderDate,
+            "orderArr": [
+                {
+                    "_field": field,
+                    "_time": time,
+                }
+            ],
+            "payment": "member",
+            "state": "xiaochengxu",
+            "thirdName": "微信",
+            "randomStr": "pHfHRfNNiEWxe",
+            "sign": "521ba84118c0e13e643688a7279b49f6",
         }
     )
+    url = "https://field.hulasports.com/api/orderlists/pay/bail"
+    url = "https://field.hulasports.com/api/orderlists/orders"
     res = requests.post(url, headers=headers, data=payload)
-    booking_array = res.json()["data"]["booking_array"]
-    for bookings in booking_array:
-        for booking in bookings["booking_infos"]:
-            if (
-                booking["state"]["state"] == "可预订"
-                and booking["showTime"] != "07:00--08:00"
-                and booking["showTime"] != "08:00--09:00"
-            ):
-                message += "%s,%s,%s\n" % (
-                    item_datetime,
-                    booking["fieldName"],
-                    booking["showTime"],
-                )
-print(message)
-if len(message) == 0:
-    print("没有适合的场地")
-else:
-    print(send_message(message))
+    print(res.text)
+
+
+if __name__ == "__main__":
+    today = datetime.date.today()
+    today_after_7_day = today + datetime.timedelta(days=7)
+    today_after_7_day_num = int(today_after_7_day.strftime("%s")) * 1000
+    # print(today_after_7_day, today_after_7_day_num)
+    free_field = get_1_day_free_field(today_after_7_day, today_after_7_day_num)
+    print(free_field[0][1], free_field[0][2], free_field[0][3])
+    make_order(free_field[0][1], free_field[0][2], free_field[0][3])

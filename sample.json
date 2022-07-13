@@ -1,0 +1,1150 @@
+{
+    "code": 200,
+    "data": {
+        "booking_array": [
+            {
+                "_time": "5fbb0d21a9a781134040a015",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0d21a9a781134040a015",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 7,
+                        "startDateHours": 7,
+                        "startDateMins": 0,
+                        "endDate": 8,
+                        "endDateHours": 8,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 0,
+                            "state": "可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "07:00",
+                        "showEndTime": "08:00",
+                        "showTime": "07:00--08:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0d21a9a781134040a015",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 7,
+                        "startDateHours": 7,
+                        "startDateMins": 0,
+                        "endDate": 8,
+                        "endDateHours": 8,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "07:00",
+                        "showEndTime": "08:00",
+                        "showTime": "07:00--08:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0d21a9a781134040a015",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 7,
+                        "startDateHours": 7,
+                        "startDateMins": 0,
+                        "endDate": 8,
+                        "endDateHours": 8,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "07:00",
+                        "showEndTime": "08:00",
+                        "showTime": "07:00--08:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0e4618ed3b12b37ff051",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0e4618ed3b12b37ff051",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 8,
+                        "startDateHours": 8,
+                        "startDateMins": 0,
+                        "endDate": 9,
+                        "endDateHours": 9,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "08:00",
+                        "showEndTime": "09:00",
+                        "showTime": "08:00--09:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0e4618ed3b12b37ff051",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 8,
+                        "startDateHours": 8,
+                        "startDateMins": 0,
+                        "endDate": 9,
+                        "endDateHours": 9,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "08:00",
+                        "showEndTime": "09:00",
+                        "showTime": "08:00--09:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0e4618ed3b12b37ff051",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 8,
+                        "startDateHours": 8,
+                        "startDateMins": 0,
+                        "endDate": 9,
+                        "endDateHours": 9,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "08:00",
+                        "showEndTime": "09:00",
+                        "showTime": "08:00--09:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0dfdc3f5a10ff4a5f161",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0dfdc3f5a10ff4a5f161",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 9,
+                        "startDateHours": 9,
+                        "startDateMins": 0,
+                        "endDate": 10,
+                        "endDateHours": 10,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "09:00",
+                        "showEndTime": "10:00",
+                        "showTime": "09:00--10:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0dfdc3f5a10ff4a5f161",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 9,
+                        "startDateHours": 9,
+                        "startDateMins": 0,
+                        "endDate": 10,
+                        "endDateHours": 10,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "09:00",
+                        "showEndTime": "10:00",
+                        "showTime": "09:00--10:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0dfdc3f5a10ff4a5f161",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 9,
+                        "startDateHours": 9,
+                        "startDateMins": 0,
+                        "endDate": 10,
+                        "endDateHours": 10,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "09:00",
+                        "showEndTime": "10:00",
+                        "showTime": "09:00--10:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0e11937aa712a8c227d8",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0e11937aa712a8c227d8",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 10,
+                        "startDateHours": 10,
+                        "startDateMins": 0,
+                        "endDate": 11,
+                        "endDateHours": 11,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "10:00",
+                        "showEndTime": "11:00",
+                        "showTime": "10:00--11:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0e11937aa712a8c227d8",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 10,
+                        "startDateHours": 10,
+                        "startDateMins": 0,
+                        "endDate": 11,
+                        "endDateHours": 11,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "10:00",
+                        "showEndTime": "11:00",
+                        "showTime": "10:00--11:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0e11937aa712a8c227d8",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 10,
+                        "startDateHours": 10,
+                        "startDateMins": 0,
+                        "endDate": 11,
+                        "endDateHours": 11,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "10:00",
+                        "showEndTime": "11:00",
+                        "showTime": "10:00--11:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0e26c3f5a10ff4a5f16e",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0e26c3f5a10ff4a5f16e",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 11,
+                        "startDateHours": 11,
+                        "startDateMins": 0,
+                        "endDate": 12,
+                        "endDateHours": 12,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "11:00",
+                        "showEndTime": "12:00",
+                        "showTime": "11:00--12:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0e26c3f5a10ff4a5f16e",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 11,
+                        "startDateHours": 11,
+                        "startDateMins": 0,
+                        "endDate": 12,
+                        "endDateHours": 12,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "11:00",
+                        "showEndTime": "12:00",
+                        "showTime": "11:00--12:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0e26c3f5a10ff4a5f16e",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 11,
+                        "startDateHours": 11,
+                        "startDateMins": 0,
+                        "endDate": 12,
+                        "endDateHours": 12,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "11:00",
+                        "showEndTime": "12:00",
+                        "showTime": "11:00--12:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0e36c3f5a10ff4a5f177",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0e36c3f5a10ff4a5f177",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 12,
+                        "startDateHours": 12,
+                        "startDateMins": 0,
+                        "endDate": 13,
+                        "endDateHours": 13,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "12:00",
+                        "showEndTime": "13:00",
+                        "showTime": "12:00--13:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0e36c3f5a10ff4a5f177",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 12,
+                        "startDateHours": 12,
+                        "startDateMins": 0,
+                        "endDate": 13,
+                        "endDateHours": 13,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "12:00",
+                        "showEndTime": "13:00",
+                        "showTime": "12:00--13:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0e36c3f5a10ff4a5f177",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 12,
+                        "startDateHours": 12,
+                        "startDateMins": 0,
+                        "endDate": 13,
+                        "endDateHours": 13,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "12:00",
+                        "showEndTime": "13:00",
+                        "showTime": "12:00--13:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0e5947c6f60ffbd984a5",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0e5947c6f60ffbd984a5",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 13,
+                        "startDateHours": 13,
+                        "startDateMins": 0,
+                        "endDate": 14,
+                        "endDateHours": 14,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "13:00",
+                        "showEndTime": "14:00",
+                        "showTime": "13:00--14:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0e5947c6f60ffbd984a5",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 13,
+                        "startDateHours": 13,
+                        "startDateMins": 0,
+                        "endDate": 14,
+                        "endDateHours": 14,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "13:00",
+                        "showEndTime": "14:00",
+                        "showTime": "13:00--14:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0e5947c6f60ffbd984a5",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 13,
+                        "startDateHours": 13,
+                        "startDateMins": 0,
+                        "endDate": 14,
+                        "endDateHours": 14,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "13:00",
+                        "showEndTime": "14:00",
+                        "showTime": "13:00--14:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0e668c9b4d124058551c",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0e668c9b4d124058551c",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 14,
+                        "startDateHours": 14,
+                        "startDateMins": 0,
+                        "endDate": 15,
+                        "endDateHours": 15,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "14:00",
+                        "showEndTime": "15:00",
+                        "showTime": "14:00--15:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0e668c9b4d124058551c",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 14,
+                        "startDateHours": 14,
+                        "startDateMins": 0,
+                        "endDate": 15,
+                        "endDateHours": 15,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "14:00",
+                        "showEndTime": "15:00",
+                        "showTime": "14:00--15:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0e668c9b4d124058551c",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 14,
+                        "startDateHours": 14,
+                        "startDateMins": 0,
+                        "endDate": 15,
+                        "endDateHours": 15,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "14:00",
+                        "showEndTime": "15:00",
+                        "showTime": "14:00--15:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0e70937aa712a8c227e1",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0e70937aa712a8c227e1",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 15,
+                        "startDateHours": 15,
+                        "startDateMins": 0,
+                        "endDate": 16,
+                        "endDateHours": 16,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "15:00",
+                        "showEndTime": "16:00",
+                        "showTime": "15:00--16:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0e70937aa712a8c227e1",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 15,
+                        "startDateHours": 15,
+                        "startDateMins": 0,
+                        "endDate": 16,
+                        "endDateHours": 16,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "15:00",
+                        "showEndTime": "16:00",
+                        "showTime": "15:00--16:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0e70937aa712a8c227e1",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 15,
+                        "startDateHours": 15,
+                        "startDateMins": 0,
+                        "endDate": 16,
+                        "endDateHours": 16,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "15:00",
+                        "showEndTime": "16:00",
+                        "showTime": "15:00--16:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0e8147c6f60ffbd984ae",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0e8147c6f60ffbd984ae",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 16,
+                        "startDateHours": 16,
+                        "startDateMins": 0,
+                        "endDate": 17,
+                        "endDateHours": 17,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "16:00",
+                        "showEndTime": "17:00",
+                        "showTime": "16:00--17:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0e8147c6f60ffbd984ae",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 16,
+                        "startDateHours": 16,
+                        "startDateMins": 0,
+                        "endDate": 17,
+                        "endDateHours": 17,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "16:00",
+                        "showEndTime": "17:00",
+                        "showTime": "16:00--17:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0e8147c6f60ffbd984ae",
+                        "total": 130,
+                        "unit": "hours",
+                        "price": 130,
+                        "startDate": 16,
+                        "startDateHours": 16,
+                        "startDateMins": 0,
+                        "endDate": 17,
+                        "endDateHours": 17,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "16:00",
+                        "showEndTime": "17:00",
+                        "showTime": "16:00--17:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0e8d7fe02a13460efc12",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0e8d7fe02a13460efc12",
+                        "total": 160,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 17,
+                        "startDateHours": 17,
+                        "startDateMins": 0,
+                        "endDate": 18,
+                        "endDateHours": 18,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "17:00",
+                        "showEndTime": "18:00",
+                        "showTime": "17:00--18:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0e8d7fe02a13460efc12",
+                        "total": 160,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 17,
+                        "startDateHours": 17,
+                        "startDateMins": 0,
+                        "endDate": 18,
+                        "endDateHours": 18,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "17:00",
+                        "showEndTime": "18:00",
+                        "showTime": "17:00--18:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0e8d7fe02a13460efc12",
+                        "total": 160,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 17,
+                        "startDateHours": 17,
+                        "startDateMins": 0,
+                        "endDate": 18,
+                        "endDateHours": 18,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "17:00",
+                        "showEndTime": "18:00",
+                        "showTime": "17:00--18:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0ea847c6f60ffbd984b7",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0ea847c6f60ffbd984b7",
+                        "total": 160,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 18,
+                        "startDateHours": 18,
+                        "startDateMins": 0,
+                        "endDate": 19,
+                        "endDateHours": 19,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "18:00",
+                        "showEndTime": "19:00",
+                        "showTime": "18:00--19:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0ea847c6f60ffbd984b7",
+                        "total": 160,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 18,
+                        "startDateHours": 18,
+                        "startDateMins": 0,
+                        "endDate": 19,
+                        "endDateHours": 19,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "18:00",
+                        "showEndTime": "19:00",
+                        "showTime": "18:00--19:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0ea847c6f60ffbd984b7",
+                        "total": 160,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 18,
+                        "startDateHours": 18,
+                        "startDateMins": 0,
+                        "endDate": 19,
+                        "endDateHours": 19,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "18:00",
+                        "showEndTime": "19:00",
+                        "showTime": "18:00--19:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0eb447c6f60ffbd984c0",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0eb447c6f60ffbd984c0",
+                        "total": 160,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 19,
+                        "startDateHours": 19,
+                        "startDateMins": 0,
+                        "endDate": 20,
+                        "endDateHours": 20,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "19:00",
+                        "showEndTime": "20:00",
+                        "showTime": "19:00--20:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0eb447c6f60ffbd984c0",
+                        "total": 160,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 19,
+                        "startDateHours": 19,
+                        "startDateMins": 0,
+                        "endDate": 20,
+                        "endDateHours": 20,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "19:00",
+                        "showEndTime": "20:00",
+                        "showTime": "19:00--20:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0eb447c6f60ffbd984c0",
+                        "total": 160,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 19,
+                        "startDateHours": 19,
+                        "startDateMins": 0,
+                        "endDate": 20,
+                        "endDateHours": 20,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 2,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "19:00",
+                        "showEndTime": "20:00",
+                        "showTime": "19:00--20:00"
+                    }
+                ]
+            },
+            {
+                "_time": "5fbb0ec13174ad1246395acc",
+                "booking_infos": [
+                    {
+                        "_field": "5fbb0cda7fe02a13460efc0b",
+                        "fieldName": "室内网球01",
+                        "_time": "5fbb0ec13174ad1246395acc",
+                        "total": 320,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 20,
+                        "startDateHours": 20,
+                        "startDateMins": 0,
+                        "endDate": 22,
+                        "endDateHours": 22,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 4,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "20:00",
+                        "showEndTime": "22:00",
+                        "showTime": "20:00--22:00"
+                    },
+                    {
+                        "_field": "5fbb0ce9937aa712a8c227d1",
+                        "fieldName": "室内网球02",
+                        "_time": "5fbb0ec13174ad1246395acc",
+                        "total": 320,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 20,
+                        "startDateHours": 20,
+                        "startDateMins": 0,
+                        "endDate": 22,
+                        "endDateHours": 22,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 4,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "20:00",
+                        "showEndTime": "22:00",
+                        "showTime": "20:00--22:00"
+                    },
+                    {
+                        "_field": "5fbb0cf2a9a781134040a012",
+                        "fieldName": "室内网球03",
+                        "_time": "5fbb0ec13174ad1246395acc",
+                        "total": 320,
+                        "unit": "hours",
+                        "price": 160,
+                        "startDate": 20,
+                        "startDateHours": 20,
+                        "startDateMins": 0,
+                        "endDate": 22,
+                        "endDateHours": 22,
+                        "endDateMins": 0,
+                        "colspan": 1,
+                        "rowspan": 4,
+                        "isRebuild": false,
+                        "state": {
+                            "no": 1,
+                            "state": "不可预订"
+                        },
+                        "orderInfo": {},
+                        "showStartTime": "20:00",
+                        "showEndTime": "22:00",
+                        "showTime": "20:00--22:00"
+                    }
+                ]
+            }
+        ],
+        "time_slot": [
+            "07:00",
+            "08:00",
+            "09:00",
+            "10:00",
+            "11:00",
+            "12:00",
+            "13:00",
+            "14:00",
+            "15:00",
+            "16:00",
+            "17:00",
+            "18:00",
+            "19:00",
+            "20:00",
+            "22:00"
+        ],
+        "field_slot": [
+            "室内网球01",
+            "室内网球02",
+            "室内网球03"
+        ],
+        "showLine": "row"
+    }
+}
