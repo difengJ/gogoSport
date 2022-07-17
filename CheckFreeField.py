@@ -17,12 +17,12 @@ def get_free_proxies():
             ip = tds[0].text.strip()
             port = tds[1].text.strip()
             host = f"{ip}:{port}"
+            proxies.append(host)
         except IndexError:
             continue
-        session = requests.Session()
-        session.proxies = {"http": host, "https": host}
-        if session.get("http://icanhazip.com", timeout=1.5).text.strip():
-            proxies.append(host)
+        # session = requests.Session()
+        # session.proxies = {"http": host, "https": host}
+        # if session.get("http://icanhazip.com", timeout=1.5).text.strip():
     return proxies
 
 
