@@ -20,7 +20,7 @@ def get_1_day_free_field(item_datetime, item_timestamp):
         }
     )
     proxies = {
-        "http": "http://hk1.dav2.top:14444",
+        "http": "http://jp1.dav2.top:31444",
         # "https": "http://10.10.1.10:1080",
     }
     res = requests.post(url, headers=headers, data=payload, proxies=proxies)
