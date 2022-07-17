@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup as bs
 
 
 def get_free_proxies():
-    url = "http://www.ip3366.net/"
+    url = "https://free.kuaidaili.com/free/"
     # get the HTTP response and construct soup object
     soup = bs(requests.get(url).content, "html.parser")
     proxies = []
