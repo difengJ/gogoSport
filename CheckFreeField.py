@@ -1,6 +1,34 @@
 import json
 import requests
 import datetime
+import random
+from bs4 import BeautifulSoup as bs
+
+
+def get_free_proxies():
+    url = "http://www.ip3366.net/"
+    # get the HTTP response and construct soup object
+    soup = bs(requests.get(url).content, "html.parser")
+    proxies = []
+    for row in soup.find("table").find_all("tr")[1:]:
+        tds = row.find_all("td")
+        try:
+            ip = tds[0].text.strip()
+            port = tds[1].text.strip()
+            host = f"{ip}:{port}"
+            proxies.append(host)
+        except IndexError:
+            continue
+    return proxies
+
+
+def get_session(proxies):
+    # construct an HTTP session
+    session = requests.Session()
+    # choose one random proxy
+    proxy = random.choice(proxies)
+    session.proxies = {"http": proxy, "https": proxy}
+    return session
 
 
 def get_1_day_free_field(item_datetime, item_timestamp):
@@ -19,11 +47,13 @@ def get_1_day_free_field(item_datetime, item_timestamp):
             "delayMins": 0,
         }
     )
-    proxies = {
-        "http": "http://jp1.dav2.top:31444",
-        # "https": "http://10.10.1.10:1080",
-    }
-    res = requests.post(url, headers=headers, data=payload, proxies=proxies)
+    proxies = get_free_proxies()
+    print(proxies)
+    s = get_session(proxies)
+    print(
+        "Request page with IP:", s.get("http://icanhazip.com", timeout=1.5).text.strip()
+    )
+    res = s.post(url, headers=headers, data=payload)
     booking_array = res.json()["data"]["booking_array"]
     for bookings in booking_array:
         for booking in bookings["booking_infos"]:
