@@ -6,9 +6,10 @@ from bs4 import BeautifulSoup as bs
 
 
 def get_free_proxies():
-    url = "https://free.kuaidaili.com/free/"
+    url = "https://www.beesproxy.com/free"
+    headers = {"Content-Type": "application/json"}
     # get the HTTP response and construct soup object
-    soup = bs(requests.get(url).content, "html.parser")
+    soup = bs(requests.get(url, headers=headers).content, "html.parser")
     proxies = []
     for row in soup.find("table").find_all("tr")[1:]:
         tds = row.find_all("td")
@@ -16,9 +17,12 @@ def get_free_proxies():
             ip = tds[0].text.strip()
             port = tds[1].text.strip()
             host = f"{ip}:{port}"
-            proxies.append(host)
         except IndexError:
             continue
+        session = requests.Session()
+        session.proxies = {"http": host, "https": host}
+        if session.get("http://icanhazip.com", timeout=1.5).text.strip():
+            proxies.append(host)
     return proxies
 
 
@@ -48,18 +52,14 @@ def get_1_day_free_field(item_datetime, item_timestamp):
         }
     )
     proxies = get_free_proxies()
-    print(proxies)
     s = get_session(proxies)
-    print(
-        "Request page with IP:", s.get("http://icanhazip.com", timeout=1.5).text.strip()
-    )
     res = s.post(url, headers=headers, data=payload)
     booking_array = res.json()["data"]["booking_array"]
     for bookings in booking_array:
         for booking in bookings["booking_infos"]:
             if (
                 booking["state"]["state"] == "可预订"
-                and booking["_time"] != "07:00--08:00"
+                and booking["showTime"] != "07:00--08:00"
             ):
                 free_fields.append(
                     (
