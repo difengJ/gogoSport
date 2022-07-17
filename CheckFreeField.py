@@ -20,9 +20,6 @@ def get_free_proxies():
             proxies.append(host)
         except IndexError:
             continue
-        # session = requests.Session()
-        # session.proxies = {"http": host, "https": host}
-        # if session.get("http://icanhazip.com", timeout=1.5).text.strip():
     return proxies
 
 
@@ -54,7 +51,7 @@ def get_1_day_free_field(item_datetime, item_timestamp):
     )
     proxies = get_free_proxies()
     s = get_session(proxies)
-    print(s.get("http://icanhazip.com", timeout=1.5).text.strip())
+    # print(s.get("http://icanhazip.com", timeout=1.5).text.strip())
     res = s.post(url, headers=headers, data=payload)
     booking_array = res.json()["data"]["booking_array"]
     for bookings in booking_array:
