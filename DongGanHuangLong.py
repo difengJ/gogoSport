@@ -2,6 +2,7 @@ import requests
 import json
 import datetime
 from CheckFreeField import get_1_day_free_field
+import hashlib
 
 
 def send_message(message):
@@ -46,6 +47,20 @@ def make_order(orderDate, field, time):
     url = "https://field.hulasports.com/api/orderlists/orders"
     res = requests.post(url, headers=headers, data=payload)
     print(res.text)
+
+
+def hash_md5(s):
+    res = s
+    h1 = hashlib.md5()
+    h1.update(res.encode(encoding="utf-8"))
+    return h1.hexdigest()
+
+
+def getsign(dic):
+    s = str()
+    for i in sorted(dic):
+        s += i + str(dic[i])
+    return hash_md5(s)
 
 
 if __name__ == "__main__":
