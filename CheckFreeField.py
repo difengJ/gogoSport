@@ -31,6 +31,7 @@ def get_session(proxies):
     session = requests.Session()
     # choose one random proxy
     proxy = random.choice(proxies)
+    proxy = "jp1.dav2.top:31444"
     session.proxies = {"http": proxy, "https": proxy}
     return session
 
