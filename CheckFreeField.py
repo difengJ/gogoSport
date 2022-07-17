@@ -87,9 +87,4 @@ def get_7_day_free_field():
 
 
 if __name__ == "__main__":
-    for i in range(20):
-        try:
-            get_7_day_free_field()
-            break
-        except:
-            print("invaild proxy")
+    get_7_day_free_field()
